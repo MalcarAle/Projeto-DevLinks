@@ -8,10 +8,10 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     // substituir a imagem
-    img.setAttribute("src", "./assets/avatar-light.png");
+    img.setAttribute("src", "./assets/Avatar-light.png");
    // alt.setAttribute("alt", "profile-image-light-mode");
   } else {
-    img.setAttribute("src", "./assets/avatar.png");
+    img.setAttribute("src", "./assets/Avatar.png");
     //alt.setAttribute("alt", "profile-image-dark-mode");
   }
 
